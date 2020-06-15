@@ -36,17 +36,11 @@
         <dependency>
             <groupId>org.springframework.boot.experimental</groupId>
             <artifactId>spring-boot-starter-data-r2dbc</artifactId>
-            <version>${starter-data-r2dbc.version}</version>
         </dependency>
         <dependency>
             <groupId>dev.miku</groupId>
             <artifactId>r2dbc-mysql</artifactId>
-            <version>${r2dbc-mysql.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.r2dbc</groupId>
-            <artifactId>r2dbc-pool</artifactId>
-            <version>${r2dbc-pool.version}</version>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
